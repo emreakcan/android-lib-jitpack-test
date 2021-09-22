@@ -3,6 +3,9 @@ plugins {
     id 'kotlin-android'
 }
 
+sourceCompatibility = 11
+targetCompatibility = 11
+
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(11))
